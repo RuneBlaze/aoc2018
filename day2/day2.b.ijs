@@ -15,9 +15,7 @@ for_eg=: verb define
     snd =. 1 { p
     res =. +/ (1 - fst = snd)
     if. res = 1 do.
-        echo fst
-        echo snd
-        echo fst = snd
+        echo (fst = snd) # fst
     end.
  end.
  0
